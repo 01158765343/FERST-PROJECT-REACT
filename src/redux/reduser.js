@@ -7,7 +7,7 @@ import { ReactReduxContext } from "react-redux"
 const a7a = [...data]
 
 
-const reduser = (state= [], action )=>{
+const reduser = (state= [...a7a], action )=>{
     
     let redusers = []
     switch (action.type){
